@@ -24,11 +24,32 @@ To get started with the Fraction Calculator, follow these steps:
 Once the program is running, follow the on-screen prompts to input the fractions you want to calculate. The calculator will display the result promptly.
 
 Example:
-```
-Enter the first fraction: 3/4
-Enter the operation (+, -, *, /): +
-Enter the second fraction: 1/2
-Result: 1 1/4
+
+```html
+<div style="font-family: monospace;">
+  <p>Please enter the operation you want to do [+, -, *(Multiplication), /(Division), gcd or type "clear"]: +</p>
+  <hr style="border: 1px dashed black;">
+  <pre><span style="color:red;">
+     \_/
+      ?
+    -----    +    -----
+      ?             ?
+  </span></pre>
+  <p>Please enter the <b>numerator</b> of the <b>first</b> fraction as seen above, or type 'reset' to reset: 1</p>
+  <hr style="border: 1px dashed black;">
+  <pre>
+         1             ?
+       -----    +    -----
+         ?             ?
+         _
+        / \
+         |
+         |
+  </pre>
+  <p>Please enter the <b>denominator</b> of the <b>first</b> fraction as seen above, or type 'reset' to reset: 2</p>
+  <hr style="border: 1px dashed black;">
+</div>
+
 ```
 
 ## Reporting Issues
