@@ -27,6 +27,7 @@ Example:
 
 ```html
 <div style="font-family: monospace;">
+<span>
   <p>Please enter the operation you want to do [+, -, *(Multiplication), /(Division), gcd or type "clear"]: +</p>
   <hr style="border: 1px dashed black;">
   <pre><span style="color:red;">
@@ -48,6 +49,7 @@ Example:
   </pre>
   <p>Please enter the <b>denominator</b> of the <b>first</b> fraction as seen above, or type 'reset' to reset: 2</p>
   <hr style="border: 1px dashed black;">
+</span>
 </div>
 
 ```
